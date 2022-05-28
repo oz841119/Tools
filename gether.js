@@ -32,7 +32,7 @@ function gether(array1, array2, mode = 'I', unique = false) {
   let targetOfI = []
   array2.forEach(e => {
     map.set(mapKey, e)
-    mapKey += 2 // mapKeyName無所謂，主要對整個流程來說，他必須是獨特的值，便於交集中進行刪除。
+    mapKey += 2 // mapKeyName無所謂，主要對整個流程來說，他必須是獨特的KeyName，便於交集中進行刪除。
   });
 
   array1.map((e) => {
